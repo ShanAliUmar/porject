@@ -940,6 +940,7 @@ project__img {
 
 .footer__container {
   row-gap: 3.5rem;
+  text-align: center;
 }
 
 .footer__bg {
@@ -975,6 +976,7 @@ project__img {
 
 .footer__social:hover {
   color: var(--first-color-lighter);
+  text-align: center;
 }
 
 .footer__copy {
@@ -1267,7 +1269,6 @@ project__img {
 
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
-
   }
 
   .footer__bg {
@@ -1286,11 +1287,12 @@ project__img {
 
   .footer__copy {
     margin-top: 4rem;
+    text-align: center;
   }
 }
 
 /* For large devices */
-@media screen and (man-width:1110px) {
+@media screen and (max-width:110px) {
 
   .header,
   .main,
